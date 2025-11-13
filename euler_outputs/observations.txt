@@ -1,0 +1,6 @@
+**Key observations (example):**
+- Landing range error |ΔR| decreases as dt shrinks (Euler is first-order).
+- For dt around 0.02–0.01 s, the landing x is often a “pretty good” match.
+- x(t) error tends to grow ~linearly; y(t) error can grow faster near landing.
+- Explicit Euler does not conserve energy; smaller dt reduces the drift.
+- Try varying v0 and theta and repeat the dt sweep; note stability of your “good” dt.
